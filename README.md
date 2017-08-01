@@ -48,9 +48,9 @@ The following CSS will hide the .header on screen width 320px and above.
 
 Getting started is very easy. 
 
-1. Import the [`resass.scss`](/resass.scss) in your main .SCSS file → `@import "path/to/resass";`
-2. Now use any or all of the mixins inside a class' CSS.
-
+1. Download the raw [`resass.scss`](https://git.io/resass)
+2. Import the [`resass.scss`](/resass.scss) in your main .SCSS file → `@import "path/to/resass";`
+3. Now use any or all of the mixins inside a class' CSS.
 
 ## ⚡️ License
 
