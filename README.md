@@ -19,7 +19,7 @@
 
 ## ⚡️ What Is `ReSass`?
 
-ReSass creates responsive media queries for seven different screen sizes. These are based on min-width which means if x (x could be 240, 320, 480, 768, 1024, 1140, 1280, or 1500) is the size then your CSS will affect any device with screen width x and above.
+ReSass creates responsive media queries for seven different screen sizes. These are based on min-width which means if x (x could be `240`, `320`, `480`, `768`, `1024`, `1140`, `1280`, or `1500`) is the size then your CSS will affect any device with screen width x and above.
 
 #### USAGE:
 CSS content goes inside {} brackets. These mixins should be used inside a class definition. 
