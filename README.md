@@ -2,7 +2,7 @@
     <tr>
         <td align='left' width='100%' colspan='2'>
             <strong>ReSass</strong><br />
-            💻📱🖥 Sass SCSS Responsive Media Queries Mixin for Eight Different Screen Sizes!
+            Sass SCSS Responsive Media Queries Mixin for Eight Different Screen Sizes! 💻📱🖥
         </td>
     </tr>
     <tr>
@@ -19,7 +19,9 @@
 
 ## ⚡️ What Is `ReSass`?
 
-ReSass creates responsive media queries for seven different screen sizes. These are based on min-width which means if x (x could be `240`, `320`, `480`, `768`, `1024`, `1140`, `1280`, or `1500`) is the size then your CSS will affect any device with screen width x and above.
+![ReSass](https://github.com/ahmadawais/ReSass/raw/master/ReSass.gif)
+
+ReSass (`Re`sponsive`Sass`) creates responsive media queries for seven different screen sizes. These are based on min-width which means if x (x could be `240`, `320`, `480`, `768`, `1024`, `1140`, `1280`, or `1500`) is the size then your CSS will affect any device with screen width x and above.
 
 #### USAGE:
 CSS content goes inside {} brackets. These mixins should be used inside a class definition. 
