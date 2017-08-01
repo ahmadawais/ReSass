@@ -17,13 +17,15 @@
     </tr>
 </table>
 
-## ⚡️ What Is `ReSass`?
+## ⚡️  `ReSass`
 
-![ReSass](https://github.com/ahmadawais/ReSass/raw/master/ReSass.gif)
+![ReSass](https://github.com/ahmadawais/ReSass/raw/master/ReSass.jpg)
+
 
 ReSass (`Re`sponsive`Sass`) creates responsive media queries for seven different screen sizes. These are based on min-width which means if x (x could be `240`, `320`, `480`, `768`, `1024`, `1140`, `1280`, or `1500`) is the size then your CSS will affect any device with screen width x and above.
 
 #### USAGE:
+![ReSass](https://github.com/ahmadawais/ReSass/raw/master/ReSass.gif)
 CSS content goes inside {} brackets. These mixins should be used inside a class definition. 
 
 ```css
@@ -53,6 +55,7 @@ Getting started is very easy.
 1. Download the raw [`resass.scss`](https://git.io/resass)
 2. Import the [`resass.scss`](/resass.scss) in your main .SCSS file → `@import "path/to/resass";`
 3. Now use any or all of the mixins inside a class' CSS.
+4. Here's a fun [implementation at CodePen →](https://codepen.io/ahmadawais/full/eEzpgo/)
 
 ## ⚡️ License
 
