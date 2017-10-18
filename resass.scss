@@ -29,50 +29,12 @@
  * @link    https://github.com/ahmadawais/ReSass.git
  * @version 1.0.0
  */
-@mixin r( $point ) {
-	@if $point==240 {
-		@media ( min-width: 240px ) {
-			@content;
-		}
-	}
-	@if $point==320 {
-		@media ( min-width: 320px ) {
-			@content;
-		}
-	}
-	@if $point==480 {
-		@media ( min-width: 480px ) {
-			@content;
-		}
-	}
-	@if $point==600 {
-		@media ( min-width: 600px ) {
-			@content;
-		}
-	}
-	@if $point==768 {
-		@media ( min-width: 768px ) {
-			@content;
-		}
-	}
-	@if $point==1024 {
-		@media ( min-width: 1024px ) {
-			@content;
-		}
-	}
-	@if $point==1140 {
-		@media ( min-width: 1140px ) {
-			@content;
-		}
-	}
-	@if $point==1280 {
-		@media ( min-width: 1280px ) {
-			@content;
-		}
-	}
-	@if $point==1500 {
-		@media ( min-width: 1500px ) {
-			@content;
-		}
-	}
+$sizes: (240,320,480,600,768,1024,1140,1280,1500);
+
+@mixin r($point, $amount: 'min') {
+    @if index($sizes, $point) {
+        @media (#{$amount}-width: #{$point}px) {
+            @content;
+        }
+    }
 }
